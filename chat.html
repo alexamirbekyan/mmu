@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=1024, user-scalable = no">-->
+    <title>MaybeMeetUp (Chat)</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,100,300italic' rel='stylesheet' type='text/css'>    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <link href="css/mmu_style.css" rel="stylesheet">
+    <link href="css/mmu_mq.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="home">
+<div class="main">
+
+    <nav class="navbar navbar-default mmu_navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mmu_navbar_collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand mmu_brand" href="#">
+                    <img src="img/mainlogo.png" class="mmu_main_logo img-responsive hidden-sm">
+                    <img src="img/mainlogo_heart_crop.png" class="mmu_main_logo img-responsive visible-sm">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="mmu_navbar_collapse">
+                <section class="upper_subsection navbar-right">
+                    <!--<section class="login_logout_form_holder">-->
+                    <!--<form id="loginlogout" class="mmu_login_form form-inline" role="form">-->
+                    <!--<div class="form-group">-->
+                    <!--<input type="text" class="form-control mmu_login_input" id="loginName" placeholder="login name" onfocus="placeholder='' " onblur="placeholder='login name' ">-->
+                    <!--</div>-->
+                    <!--<div class="form-group">-->
+                    <!--<input type="password" class="form-control mmu_login_input" id="loginPassword" placeholder="password" onfocus="placeholder='' " onblur="placeholder='password' ">-->
+                    <!--</div>-->
+                    <!--<button type="submit" class="btn btn-default submit_login_form_btn">Sign In</button>-->
+                    <!--</form>-->
+                    <!--</section>-->
+                    <section class="logged_in">
+                        <span class="logged_in_user_greeting">Hello, <a href="#" id="userID">Jennifer!</a></span>
+                        <button type="submit" class="btn btn-default logout_btn">Sign Out</button>
+                    </section>
+                </section>
+                <section class="lower_subsection navbar-right">
+                    <ul class="nav navbar-nav mmu_nav_linxx">
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="#">WHO WE ARE</a></li>
+                        <li><a href="#">MAYBEMEETUP</a></li>
+                        <li><a href="#">CARDS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </section>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav> <!-- Navbar area END -->
+
+    <div class="mmu_inner_header_area">
+        <div class="container">
+            <div class="row">
+                <h2 class="inner_main_ttl">Chat</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="mmu_chat_midmain_area">
+        <div class="container">
+            <div class="row">
+                <section class="chat_introtxt_holder center-block">
+                    <p>Tortor nec nunc semper, sit amet viverra massa viverra. Integer at ante felis. Mus orci nunc,
+                        venenatis ac sodales at, dictum a leo.
+                    </p>
+                </section>
+                <div class="chatboxx">
+                    <aside class="col-sm-3 leftside_chat_sidebar">
+                        <ul id="chat_sidemenu" class="nav nav-tabs-justified" role="tablist">
+                            <li class="active"><a href="#chat" class="chat_selekta" role="tab" data-toggle="tab"><span><i class="fa fa-comments-o"></i></span>Chat</a></li>
+                            <li><a href="#inbox" class="chat_selekta" role="tab" data-toggle="tab"><span><i class="fa fa-inbox"></i></span>Inbox</a></li>
+                            <li><a href="#people" class="chat_selekta" role="tab" data-toggle="tab"><span><i class="fa fa-users"></i></span>People</a></li>
+                            <li><a href="#history" class="chat_selekta" role="tab" data-toggle="tab"><span><i class="fa fa-history"></i></span>History</a></li>
+                            <li><a href="#card_holderz" class="chat_selekta" role="tab" data-toggle="tab"><span><i class="fa fa-file-text"></i></span>Card Holders</a></li>
+                        </ul>
+                    </aside>
+
+                    <div class="tab-content">
+                        <!-- Chat Tab Start -->
+                        <section id="chat" class="col-sm-9 tab-pane fade in active">
+                            <section class="chat_vertical_stripe">
+
+                                <section class="chat_diaog_holder my_partner_dialog">
+                                    <section class="chat_bubble_holder">
+                                        <span class="chat_bubble partner_bubble">
+                                            <p>Hey babe, what's wring with you? I've been trying to get in touch with
+                                               you since I've found your card in the club, but you won't go online...
+                                               Why then?! :((
+                                            </p>
+                                        </span>
+                                    </section>
+                                    <section class="user_pic_name_box">
+                                        <span class="chat_user_image" style="background: url('img/chat_user_02.jpg') center center no-repeat; background-size: cover;"></span>
+                                        <p class="user_credentials">George Domingo</p>
+                                        <small class="chat_date">12:20AM, March 14, 2016</small>
+                                    </section>
+                                </section>
+
+                                <section class="chat_diaog_holder">
+                                    <section class="chat_bubble_holder">
+                                        <span class="chat_bubble">
+                                            <p>
+                                                Chill out boy, everything will be okay ;))) As I promised earlier yesterday,
+                                                I have to handle some biz...
+                                            </p>
+                                        </span>
+                                    </section>
+                                    <section class="user_pic_name_box">
+                                        <span class="chat_user_image my_image" style="background: url('img/chat_user_01.jpg') center center no-repeat; background-size: cover;"></span>
+                                        <p class="user_credentials my_credentials">Me</p>
+                                        <small class="chat_date my_chatdate">12:26AM, March 14, 2016</small>
+                                    </section>
+                                </section>
+
+                                <section class="chat_diaog_holder my_partner_dialog">
+                                    <section class="chat_bubble_holder">
+                                        <span class="chat_bubble partner_bubble">
+                                            <p>Hmm... OK then, I'll be waiting for ya! :-P
+                                            </p>
+                                        </span>
+                                    </section>
+                                    <section class="user_pic_name_box">
+                                        <span class="chat_user_image" style="background: url('img/chat_user_02.jpg') center center no-repeat; background-size: cover;"></span>
+                                        <p class="user_credentials">George Domingo</p>
+                                        <small class="chat_date">12:29AM, March 14, 2016</small>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="chat_pagination_holder">
+                                <ul class="chat_pagination">
+                                    <li><a href="javascript:void(0)" class="active_chat_page">1</a></li>
+                                    <li><a href="javascript:void(0)">2</a></li>
+                                    <li><a href="javascript:void(0)">3</a></li>
+                                    <li><a href="javascript:void(0)">4</a></li>
+                                    <li><a href="javascript:void(0)">5</a></li>
+                                    <li><a href="javascript:void(0)">6</a></li>
+                                    <li><a href="javascript:void(0)">7</a></li>
+                                </ul>
+                            </section>
+                            <div class="clearfix"></div>
+                            <section class="chat_messagebox_holder">
+                                <textarea id="messengerBox" class="messenger_box" placeholder="Type your message here..." onfocus="placeholder='' " onblur="placeholder='Type your message here...' "></textarea>
+                                <section class="message_box_control_panel">
+                                    <section class="control_subsection_1">
+                                        <input type="file" name="file" id="file" class="inputfile" />
+                                        <label for="file"><i class="fa fa-camera"></i></label>
+                                    </section>
+                                    <section class="control_subsection_2">
+                                        <p>Press Enter to <button type="submit" id="sendChatMsg" class="send_chat_btn">Send</button></p>
+                                    </section>
+                                </section>
+                            </section>
+
+
+                        </section>
+
+
+                        <!-- Inbox Tab Start -->
+                        <section id="inbox" class="col-sm-9 tab-pane fade">
+
+                        </section>
+
+
+                        <!-- People Tab Start -->
+                        <section id="people" class="col-sm-9 tab-pane fade">
+
+                        </section>
+
+
+                        <!-- History Tab Start -->
+                        <section id="history" class="col-sm-9 tab-pane fade">
+
+                        </section>
+
+
+                        <!-- Card Holders Tab Start -->
+                        <section id="card_holderz" class="col-sm-9 tab-pane fade">
+
+                        </section>
+
+
+                    </div> <!-- Tab Content END -->
+                </div> <!-- Chatboxx END -->
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="mmu_footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer_navigation_holder center-block">
+                    <ul class="nav navbar-nav footer_nav">
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">Who We Are</a> </li>
+                        <li><a href="#">Maybemeetup</a> </li>
+                        <li><a href="#">Cards</a> </li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <section class="socializer_holder">
+                    <ul class="socializer">
+                        <li><a href="#"><i class="fa fa-facebook-f hvr-push"></i> </a></li>
+                        <li><a href="#"><i class="fa fa-twitter hvr-push"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest hvr-push"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus hvr-push"></i></a></li>
+                    </ul>
+                </section>
+                <section class="termsandconditions_holder">
+                    <a href="#">Terms & Conditions</a>
+                    <small>Copyright &copy; Maybemeetup. &nbsp; All Rights Reserved</small>
+                </section>
+
+            </div>
+        </div>
+    </footer>
+
+</div> <!-- Main END -->
+
+<!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+
+<!-- JS Files -->
+<script src="slick-1.6.0/slick/slick.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/mmu.js"></script>
+<script src="js/select2.full.js"></script>
+<script>
+
+    $('#interestz, #location, #sex_pref, #card_type').select2({
+        width: '100%',
+        minimumResultsForSearch: -1
+    });
+
+</script>
+
+</body>
+</html>

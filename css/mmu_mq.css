@@ -1,0 +1,647 @@
+/*
+█▀▄▀█ █▀▀ █▀▀▄ ░▀░ █▀▀█ 　 █▀▀█ █░░█ █▀▀ █▀▀█ ░▀░ █▀▀ █▀▀
+█░▀░█ █▀▀ █░░█ ▀█▀ █░░█ 　 █░░█ █░░█ █▀▀ █▄▄▀ ▀█▀ █▀▀ ▀▀█
+▀░░░▀ ▀▀▀ ▀▀▀░ ▀▀▀ ▀▀▀█ 　 ▀▀▀█ ░▀▀▀ ▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀ ▀▀▀
+*/
+
+
+/* ••••••••••••••••••• */
+/* = = = = = = = = = = */
+/* ••••••••••••••••••• */
+
+
+/* ------ GENERAL ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 767px){
+    #mmu_navbar_collapse {
+        position: relative;
+        top: 40px;
+        z-index: 5;
+        border: none;
+        background: #fdfdfd;
+        border-top: 4px solid #555c86;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Main Navigation (Navbar) ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 991px){
+    .upper_subsection {margin-top: 50px;}
+}
+
+@media screen and (max-width: 991px) {
+    .upper_subsection {margin-top: 10px;}
+
+    .h_banner p {width: 55%;}
+}
+
+@media screen and (max-width: 767px){
+    .navbar-brand.mmu_brand {width: 40%;}
+
+    .navbar-nav.mmu_nav_linxx li a {padding-left: 0;}
+    .mmu_nav_linxx {left: 6px;}
+}
+
+@media screen and (max-width: 685px){
+    .h_banner {width: 60%; left: 21%;}
+
+    .h_banner p {width: 100%;}
+}
+
+@media screen and (max-width: 575px){
+    .navbar-brand.mmu_brand {width: 50%;}
+}
+
+@media screen and (max-width: 475px){
+    .h_banner {width: 80%; left: 9%;}
+    .h_banner h3 {font-size: 3rem;}
+}
+
+@media screen and (max-width: 450px){
+    .navbar-brand.mmu_brand {width: 60%;}
+}
+
+@media screen and (max-width: 400px){
+    .navbar-brand.mmu_brand {width: 65%;}
+}
+
+@media screen and (max-width: 360px){
+    .navbar-brand.mmu_brand {width: 70%;}
+}
+
+
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Got a Card? ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 555px){
+    .card_code_input_holder {padding-left: 10%;}
+    input.card_code_input {width: 40%;}
+    button.submit_card_code_btn {width: 40%;}
+}
+
+@media screen and (max-width: 400px){
+    input.card_code_input {width: 88%;}
+    button.submit_card_code_btn {width: 88%; margin-bottom: 30px;}
+}
+
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Cards Preview ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 991px){
+    .mmu_card {width: 45%; margin-bottom: 20px;}
+    .viewallcardz_holder {padding-top: 24px;}
+    a.viewallcardz {margin-bottom: 30px;}
+}
+
+@media screen and (max-width: 800px){
+    h3.cards_preview_ttl {font-size: 2.6rem;}
+}
+
+@media screen and (max-width: 767px){
+    .cardz_holder {padding-left: 55px;}
+}
+
+@media screen and (max-width: 655px){
+    h3.cards_preview_ttl {font-size: 2.2rem;}
+
+    .mmu_card {height: 171px;}
+}
+
+@media screen and (max-width: 603px){
+    .mmu_card {height: 151px;}
+
+    .cardz_holder {padding-left: 33px;}
+}
+
+@media screen and (max-width: 525px){
+    .mmu_card {height: 281px; width: 93%;}
+}
+
+@media screen and (max-width: 475px){
+    .mmu_card {height: 245px;}
+    .cardz_holder {padding-left: 23px;}
+}
+
+@media screen and (max-width: 414px){
+    .mmu_card {height: 220px;}
+
+    h3.cards_preview_ttl {font-size: 2rem; padding-left: 8px; padding-right: 8px;}
+}
+
+
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Testimonials Slider ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 1199px){
+    .slick-dots {bottom: -50px;}
+    p.testimo_itself {width: 85%;}
+}
+
+@media screen and (max-width: 991px){
+    .tesnimonials_area {height: 515px;}
+
+    .outer_testimo_holder {width: 100%;}
+}
+
+@media screen and (max-width: 820px){
+    .outer_testimo_holder {width: 90%;}
+}
+
+@media screen and (max-width: 750px){
+    .outer_testimo_holder {width: 85%;}
+
+    h3.testimo_ttl {font-size: 3rem;}
+
+    p.testimo_itself {width: 95%; font-size: 1.6rem;}
+
+    span.opening_q {height: 24px; width: 24px;}
+    span.closing_q {height: 24px; width: 24px;}
+}
+
+@media screen and (max-width: 600px){
+    button.slick-prev.slick-arrow {display: none !important;}
+    button.slick-next.slick-arrow {display: none !important;}
+
+    p.testimo_itself {padding-left: 25px; padding-right: 25px;}
+
+    .slick-dots {bottom: -70px;}
+}
+
+@media screen and (max-width: 388px){
+    .slick-dots {display: none;}
+}
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Blog Slider ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 991px){
+    button.our_blog_btn {width: 28%;}
+}
+
+@media screen and (max-width: 767px){
+    #blog_slider {padding-left: 16px;}
+}
+
+@media screen and (max-width: 555px){
+    button.our_blog_btn {width: 40%;}
+}
+
+@media screen and (max-width: 400px){
+    button.our_blog_btn {width: 50%;}
+}
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ MMU Footer ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 991px){
+    ul.navbar-nav.footer_nav {left: 14%;}
+
+    .socializer_holder {left: 30%;}
+}
+
+@media screen and (max-width: 767px){
+    ul.navbar-nav.footer_nav li {float: left;}
+
+    ul.navbar-nav.footer_nav {left: 21%;}
+    ul.navbar-nav.footer_nav li a {font-size: 1.3rem;}
+}
+
+@media screen and (max-width: 660px){
+    ul.navbar-nav.footer_nav {left: 14%;}
+}
+
+@media screen and (max-width: 599px){
+    .socializer_holder {left: 27%;}
+
+    ul.navbar-nav.footer_nav {left: 16%;}
+    ul.navbar-nav.footer_nav li a {font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 530px){
+    ul.navbar-nav.footer_nav {left: 11%;}
+}
+
+@media screen and (max-width: 490px){
+    ul.navbar-nav.footer_nav {left: 8%;}
+    .socializer_holder {left: 23%;}
+}
+
+@media screen and (max-width: 460px){
+    ul.navbar-nav.footer_nav li a {font-size: 1rem;}
+}
+
+@media screen and (max-width: 430px){
+    ul.navbar-nav.footer_nav {left: 5%;}
+    .socializer_holder {left: 18%;}
+}
+
+@media screen and (max-width: 410px){
+    ul.navbar-nav.footer_nav {left: 3%;}
+}
+
+@media screen and (max-width: 400px){
+    ul.navbar-nav.footer_nav li {float: none; clear: both}
+    ul.navbar-nav.footer_nav li a {text-align: center;}
+
+    ul.navbar-nav.footer_nav li a {font-size: 1.2rem;}
+
+    .mmu_footer {height: 375px;}
+}
+
+@media screen and (max-width: 385px){
+    .socializer_holder {left: 12%;}
+}
+
+@media screen and (max-width: 335px){
+    .socializer_holder {left: 10%;}
+}
+@media screen and (max-width: 321px){
+    .socializer_holder {left: 7%;}
+}
+
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ My Profile ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 767px){
+    h2.inner_main_ttl {font-size: 4.4rem; padding-left: 20px;}
+
+    .rite_fldset {padding-top: 40px; padding-left: 0;}
+
+    .microtext_holder small {margin-bottom: 20px;}
+    button.save_changes_btn {margin-bottom: 55px; width: 45%;}
+
+    .my_profile_introtxt_holder p {padding-left: 25px; padding-right: 25px;}
+
+    .post_form_holder {padding-top: 18px;}
+}
+
+@media screen and (max-width: 610px){
+    .my_profile_introtxt_holder p {font-size: 1.6rem;}
+}
+
+@media screen and (max-width: 400px){
+    .interests_selekta_holder {width: 100%;}
+    button.save_changes_btn {width: 96%;}
+
+    h2.inner_main_ttl {font-size: 3.8rem;}
+    .my_profile_introtxt_holder p {font-size: 1.4rem;}
+}
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Contact Us ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 625px){
+    .contacts_introtxt_holder p {font-size: 1.6rem}
+
+    button.send_message_btn {right: 18px;}
+
+    .post_form_holder_2 {margin-bottom: 25%;}
+}
+
+@media screen and (max-width: 555px){
+    .post_form_holder_2 {margin-bottom: 45%;}
+}
+
+@media screen and (max-width: 380px){
+    .post_form_holder_2 {margin-bottom: 50%;}
+}
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Chat ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 1199px){
+    span.chat_bubble {left: 105px;}
+}
+
+@media screen and (max-width: 991px){
+    ul#chat_sidemenu .chat_selekta {font-size: 1.3rem;}
+    ul#chat_sidemenu li a i {height: 28px; width: 28px; padding-top: 4px; font-size: 2rem;}
+}
+
+@media screen and (max-width: 767px){
+    ul#chat_sidemenu {padding-left: 35px;}
+    .chat_introtxt_holder p {padding-left: 16px;}
+}
+
+@media screen and (max-width: 670px){
+    span.chat_bubble {left: 80px;}
+}
+
+@media screen and (max-width: 590px){
+    span.chat_bubble {left: 60px;}
+    .chat_vertical_stripe {padding-top: 20px;}
+    ul.chat_pagination li {padding-right: 24px;}
+}
+
+@media screen and (max-width: 550px){
+    ul.chat_pagination li {padding-right: 20px;}
+
+    .chat_diaog_holder {padding-left: 0;}
+    span.chat_bubble.partner_bubble {left: 55px;}
+
+    span.chat_user_image.my_image {margin-right: 16px;}
+}
+
+@media screen and (max-width: 475px){
+    ul.chat_pagination li {padding-right: 16px;}
+    span.chat_bubble {left: 30px;}
+
+    .chat_introtxt_holder p {padding-left: 36px; font-size: 1.5rem;}
+}
+
+@media screen and (max-width: 448px){
+    ul.chat_pagination li {padding-right: 12px;}
+    p.user_credentials {font-size: 2.2rem;}
+}
+
+@media screen and (max-width: 419px){
+    ul.chat_pagination li {padding-right: 9px;}
+    .chat_vertical_stripe {padding-top: 50px;}
+}
+
+@media screen and (max-width: 398px){
+    ul.chat_pagination li {padding-right: 6px;}
+    ul.chat_pagination {padding-left: 4px;}
+}
+
+@media screen and (max-width: 386px){
+    span.chat_bubble {left: 11px;}
+}
+
+@media screen and (max-width: 340px){
+    ul.chat_pagination li {padding-right: 2px;}
+    ul.chat_pagination {padding-left: 0;}
+}
+
+
+
+
+
+
+
+/* --------- */
+
+
+
+
+
+
+/* ------ Who We Are ------ */
+
+/* >>>>> LG/XL <<<<<< */
+
+
+
+
+
+
+/* >>>>> SM/XS <<<<<< */
+@media screen and (max-width: 1199px){
+    .team_memba_pic {padding-right: 12px;}
+    .team_memba_info {padding-left: 28px;}
+}
+
+@media screen and (max-width: 991px){
+    .team_memba_pic span {height: 115px; width: 115px;}
+}
+
+@media screen and (max-width: 767px){
+    .whoweare_main_text_holder p {padding-left: 24px; padding-right: 24px;}
+    .team_memba_pic span {height: 200px; width: 200px;}
+    .team_memba_info {padding-left: 0; padding-top: 42px;}
+}
+
+@media screen and (max-width: 680px){
+    .team_memba_pic span {height: 160px; width: 160px;}
+    .team_memba_info {padding-left: 0; padding-top: 22px;}
+}
+
+@media screen and (max-width: 575px){
+    .team_memba_pic span {height: 140px; width: 140px;}
+    .team_memba_info {padding-left: 0; padding-top: 8px;}
+}
+
+@media screen and (max-width: 510px){
+    .team_memba_pic span {height: 120px; width: 120px;}
+    .team_memba_info {padding-left: 0; padding-top: 0;}
+}
+
+@media screen and (max-width: 460px){
+    .team_memba_info {width: 98%;}
+    .team_memba_pic {width: 100%; margin-bottom: 12px;}
+    .team_memba_box {padding-left: 24px;}
+    .team_memba_pic span {height: 270px; width: 270px;}
+    .team_memba_info p {height: 155px;}
+}
+
+@media screen and (max-width: 425px){
+    .team_memba_pic span {height: 140px; width: 140px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
